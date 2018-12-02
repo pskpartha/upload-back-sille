@@ -12,9 +12,9 @@ var options = {
 };
 
 var pgp = require('pg-promise')(options);
-var connectionString = 'postgres://postgres:admin@127.0.0.1:5432/sillemod'; // startrek is an example database name
+// var connectionString = 'postgres://postgres:admin@127.0.0.1:5432/sillemod'; // startrek is an example database name
 
-// var connectionString = 'postgres://drsstgvjgdognk:4bf8e6683d45b7195f66df8fb5639644f0e28cb97f626286c4c17e54c41fea46@ec2-46-51-184-229.eu-west-1.compute.amazonaws.com:5432/de783253ot0fd7';
+var connectionString = 'postgres://ltyxqxlmpqlxda:d79a1c41574ea4de04c32bd0b8036e41b46c0084c3239bec50f974ba902c80b8@ec2-54-247-119-167.eu-west-1.compute.amazonaws.com:5432/dbj2kp218m4779';
 var db = pgp(connectionString);
 
 
