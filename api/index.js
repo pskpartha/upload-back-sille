@@ -33,7 +33,7 @@ router.get('/', function(req, res, next) {
   res.status(200)
     .json({
       status: 'success',
-      message: 'Live long and prosper!'
+      message: 'ModSilleBack works!'
     });
 });
 
@@ -57,5 +57,4 @@ router.post('/api/test', db.testInsert);
 // router.delete('/api/starships/:id', db.removeStarship);
 // router.post('/api/upload', upload.single('img_path'), db.createImage);
 // router.get('/api/data', db.getAllData);
-
 module.exports = router;
